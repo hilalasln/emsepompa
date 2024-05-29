@@ -1,0 +1,20 @@
+/*MCS*/
+.pagesList {
+    max-height: 250px;
+    overflow-x: auto;
+}
+.tab-panel{
+    display: none;
+}
+.tab-panel.active{
+    display: block;
+}
+
+.note-codable, .note-editable{
+    min-height: 500px !important;
+}
+
+.form-group .note-editing-area {
+    height: 500px;
+}
+/*MCS*/

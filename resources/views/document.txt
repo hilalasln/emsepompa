@@ -1,0 +1,32 @@
+Admin
+
+themes -> ThemeOne  -> Layout
+                    ->inc
+                        -> Header
+                        -> Footer
+                    -> Slider
+                    -> PageContent
+                    -> Rooms
+                        -> RoomsList
+                            -> HomeList
+                                -> carousalList
+                                -> selectList
+                            -> list-blade
+                        -> RoomsDetail
+                    -> Blog
+                        -> BlogList
+                        -> BlogDetail
+                        -> BlogCategoryList
+                    -> Contact
+                    -> Sertifikalar
+                    -> Rezervesyon
+                        -> HomeRezerv
+                        -> RoomsListRezerv
+                    -> MisafirYorumları
+                    -> hotelInfo
+                    -> activites
+                        -> gallery
+                        -> başlıklar
+                        -> menuler
+                        -> şefler
+                        -> Etkinlikler

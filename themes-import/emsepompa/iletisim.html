@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Emse Pompa</title>
+
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+        <body>
+            <!-- Header -->
+            <header class="container-fluid py-3 header">
+                <!-- Logo -->
+                <div>
+                    <a href="#">
+                        <img src="./assets/images/logo/emselogo.png" alt="Logo"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <!-- Logo -->
+                <!-- İnternal Links -->
+                <div class="hamburger-menu">
+                    <!-- Hamburger Icon -->
+                    <div class="hamburger-icon">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <!-- Hamburger Icon -->
+                    <!-- Nav Links -->
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="kurumsal.html">Kurumsal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="sertifikalar.html">Sertifikalar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="urunler.html">Ürünler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pompa-secim.html">Pompa
+                                Seçim
+                                Programı</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="iletisim.html">İletişim</a>
+                        </li>
+                        <li class="nav-item language">
+                            TR
+                        </li>
+                    </ul>
+                    <!-- Nav Links -->
+                </div>
+                <!-- İnternal Links -->
+            </header>
+            <!-- Header -->
+            <!-- Page Top Sub Header-->
+            <div class="col-md-12">
+                <div class="pageHeader">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6019.127847297837!2d28.90369548305053!3d41.03479548458521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ffef36d27de3268!2zRW1zZSBTxLF6ZMSxcm1hemzEsWsgUG9tcGE!5e0!3m2!1str!2str!4v1545858149247"
+                        width="100%" height="450" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    <div class="page-top-sub-header">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div
+                                        class="page-top-sub-header-inner pt-2">
+                                        <h1>İletişim</h1>
+                                        <ul class="breadcrumb">
+                                            <li><a
+                                                    href="/">Anasayfa</a></li>
+                                            /
+                                            <li><a
+                                                    href="#">İletişim</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Top Sub Header-->
+
+            <!-- Content -->
+            <div class="container mt-5">
+                <div class="row">
+                    <!-- İletişim Formu -->
+                    <div class="col-md-6 mb-4">
+                        <h2>İletişim Formu</h2>
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label">Ad
+                                    Soyad</label>
+                                <input type="text" class="form-control"
+                                    id="fullName" name="fullName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-Posta
+                                    Adresi</label>
+                                <input type="email" class="form-control"
+                                    id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message"
+                                    class="form-label">Mesajınız</label>
+                                <textarea class="form-control" id="message"
+                                    name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn btn-primary">Gönder</button>
+                        </form>
+                    </div>
+
+                    <!-- Google Harita -->
+                    <div class="col-md-6 mb-4">
+                        <h2>Konumumuz</h2>
+                        <div id="map" style="height: 400px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <!-- Genel Müdürlük / Fabrika -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">GENEL
+                                    MÜDÜRLÜK/FABRİKA</h5>
+                                <p class="card-text">
+                                    <strong>Adres:</strong><br>
+                                    Vatan Mahallesi Çiftehavuzlar Caddesi Akın
+                                    Sokak No: 17 Bayrampaşa İstanbul
+                                </p>
+                                <p class="card-text">
+                                    <strong>Telefon:</strong><br>
+                                    Tel: 0 (212) 501 09 67 - 544 36 80 - 612 22
+                                    75 - 501 00 71 - 612 23 54<br>
+                                    Fax: 0 (212) 501 26 07
+                                </p>
+                                <p class="card-text">
+                                    <strong>Email:</strong><br>
+                                    <a
+                                        href="mailto:satis@emsepompa.com.tr">satis@emsepompa.com.tr</a><br>
+                                    <a
+                                        href="mailto:info@emsesizdirmazlik.com">info@emsesizdirmazlik.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- İstanbul Mağaza -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">İSTANBUL MAĞAZA</h5>
+                                <p class="card-text">
+                                    <strong>Adres:</strong><br>
+                                    Tersane Caddesi Galata Hırdavatçılar Çarşısı
+                                    No:9/10 Karaköy İstanbul
+                                </p>
+                                <p class="card-text">
+                                    <strong>Telefon:</strong><br>
+                                    (0212) 292 12 43-44-83<br>
+                                    Fax: (0212) 292 12 47
+                                </p>
+                                <p class="card-text">
+                                    <strong>Email:</strong><br>
+                                    <a
+                                        href="mailto:cananseven@emsesizdirmazlik.com">cananseven@emsesizdirmazlik.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trakya Bölge Müdürlüğü -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">TRAKYA BÖLGE
+                                    MÜDÜRLÜĞÜ</h5>
+                                <p class="card-text">
+                                    <strong>Adres:</strong><br>
+                                    Yeni sanayi sitesi A blok no:18 Çorlu
+                                    Tekirdağ
+                                </p>
+                                <p class="card-text">
+                                    <strong>Telefon:</strong><br>
+                                    (0282) 652 96 76<br>
+                                    Fax: (0282) 652 96 81
+                                </p>
+                                <p class="card-text">
+                                    <strong>Email:</strong><br>
+                                    <a
+                                        href="mailto:satiscorlu@emsesizdirmazlik.com">satiscorlu@emsesizdirmazlik.com</a>
+                                </p>
+                                <p class="card-text">
+                                    <strong>Direkt İrtibat:</strong><br>
+                                    0532 777 08 71 (ADEM DARÇIN)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Content -->
+
+            <!-- En uygun pompa seçimi -->
+            <section class=" best-fit section" id="section5">
+                <p class="light-section-title">
+                    Size en uygun pompayı seçin...
+                </p>
+                <button class="best-fit-button">Seçim Yap</button>
+            </section>
+
+            <!-- En uygun pompa seçimi -->
+
+            <!-- Footer -->
+            <footer class="container-fluid  footer section" id="section7">
+                <p class="footer-title">Bizi Takip Edin</p>
+                <p class="footer-desc">Sosyal medya ağımızda neler yaptığımızı
+                    görün, <br /> en etkili üretim için bizi
+                    takip
+                    edin. </p>
+                <!-- Social Media Links -->
+                <div class="container-fluid footer-links">
+                    <!-- Youtube -->
+                    <div class="footer-link">
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <div class="footer-link-text ">
+                            <p class="link-title ">YouTube</p>
+                            <p class="link-desc ">ÜRETİM VİDEOLARI</p>
+                        </div>
+                    </div>
+                    <!-- Youtube -->
+                    <!-- Instagram -->
+                    <div class="footer-link">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <div class="footer-link-text ">
+
+                            <p class="link-title ">Instagram</p>
+                            <p class="link-desc ">ŞİRKET PROFİLİ</p>
+                        </div>
+                    </div>
+                    <!-- Instagram -->
+                    <!-- Twitter -->
+                    <div class="footer-link">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <div class="footer-link-text ">
+
+                            <p class="link-title ">X</p>
+                            <p class="link-desc ">ŞİRKET HABERLERİ</p>
+                        </div>
+                    </div>
+                    <!-- Twitter -->
+                    <!-- Facebook -->
+                    <div class="footer-link">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <div class="footer-link-text ">
+
+                            <p class="link-title ">Facebook</p>
+                            <p class="link-desc ">GÖRÜŞMELERE KATIL</p>
+                        </div>
+                    </div>
+                    <!-- Facebook -->
+                </div>
+                <!-- Social Media Links -->
+
+            </footer>
+            <!-- Footer Bottom -->
+            <div class="container-fluid footer-bottom">
+                <!-- Bottom Social Links -->
+                <div class="footer-bottom-left">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab  fa-behance"></i>
+                    </a>
+                </div>
+                <!-- Bottom Social Links -->
+                <!-- Bottom Logo -->
+                <div class="footer-bottom-image">
+                    <img src="./assets/images/logo/footer-logo.png" alt="ISO"
+                        class="img-fluid">
+                </div>
+                <!-- Bottom Logo -->
+                <!-- Copyrights -->
+                <div class="footer-bottom-right">
+                    <p>2024 Copyrights & Protected</p>
+                </div>
+                <!-- Copyrights -->
+            </div>
+            <!-- Footer Bottom -->
+            <!-- Footer -->
+
+            <script src="./assets/js/header.js"></script>
+            <script src="./assets/js/carosel.js"></script>
+
+        </body>
+
+    </html>
